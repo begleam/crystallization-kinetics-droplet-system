@@ -15,9 +15,10 @@ This project provides a complete pipeline for analyzing crystal kinetics in drop
 
 ### Requirements
 
+Install Detectron2 following the [official Detectron2 installation guide](https://detectron2.readthedocs.io/en/latest/tutorials/install.html). Pay attention to the compatibility between PyTorch, torchvision, and CUDA versions.
+
+Install other dependencies:
 ```bash
-pip install torch torchvision
-pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/index.html
 pip install opencv-python numpy scipy matplotlib pandas tqdm scikit-learn shapely parmap
 ```
 
