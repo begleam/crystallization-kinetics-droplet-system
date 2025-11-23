@@ -24,39 +24,13 @@ pip install opencv-python numpy scipy matplotlib pandas tqdm scikit-learn shapel
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/begleam/crystallization-kinetics-droplet-system.git
 cd crystal-kinetics-droplet-system
 ```
 
 ## Data and Checkpoints Download
 
 The `data/` and `checkpoints/` folders are not included in the repository due to their large size. You need to download them separately.
-
-### Option 1: Direct Download (Recommended)
-
-Download the data and checkpoints from the following sources:
-
-- **data folder**: [Download Link](https://drive.google.com/file/d/1rR4NKN7yzDZHXTU1K2GQISrDNLWMGuvz/view?usp=drive_link)
-- **checkpoints folder**: [Download Link](https://drive.google.com/file/d/1e4b8_c4FDiEKT3FE_cxElZf9VXxej-jh/view?usp=drive_link)
-
-After downloading, extract them to the project root:
-
-```bash
-unzip data.zip
-unzip checkpoints.zip
-```
-
-### Option 2: Using wget/curl
-
-```bash
-# Download data
-wget https://drive.google.com/file/d/1rR4NKN7yzDZHXTU1K2GQISrDNLWMGuvz/view?usp=drive_link
-unzip data.zip
-
-# Download checkpoints
-wget https://your-download-link.com/checkpoints.zip
-unzip checkpoints.zip
-```
 
 Ensure the folder structure matches:
    ```
@@ -72,6 +46,18 @@ Ensure the folder structure matches:
        ├── crystal_dimension_prediction.pth
        └── ...
    ```
+
+### Download the data and checkpoints from the following sources:
+
+- **data folder**: [Download Link](https://drive.google.com/file/d/1rR4NKN7yzDZHXTU1K2GQISrDNLWMGuvz/view?usp=drive_link)
+- **checkpoints folder**: [Download Link](https://drive.google.com/file/d/1e4b8_c4FDiEKT3FE_cxElZf9VXxej-jh/view?usp=drive_link)
+
+After downloading, extract them to the project root:
+
+```bash
+unzip data.zip
+unzip checkpoints.zip
+```
 
 ## Quick Start (Demo)
 
