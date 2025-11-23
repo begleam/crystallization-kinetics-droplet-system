@@ -36,8 +36,8 @@ The `data/` and `checkpoints/` folders are not included in the repository due to
 
 Download the data and checkpoints from the following sources:
 
-- **Data folder**: [Download Link](https://your-download-link.com/data.zip)
-- **Checkpoints folder**: [Download Link](https://your-download-link.com/checkpoints.zip)
+- **data folder**: [Download Link](https://drive.google.com/file/d/1rR4NKN7yzDZHXTU1K2GQISrDNLWMGuvz/view?usp=drive_link)
+- **checkpoints folder**: [Download Link](https://drive.google.com/file/d/1e4b8_c4FDiEKT3FE_cxElZf9VXxej-jh/view?usp=drive_link)
 
 After downloading, extract them to the project root:
 
@@ -50,7 +50,7 @@ unzip checkpoints.zip
 
 ```bash
 # Download data
-wget https://your-download-link.com/data.zip
+wget https://drive.google.com/file/d/1rR4NKN7yzDZHXTU1K2GQISrDNLWMGuvz/view?usp=drive_link
 unzip data.zip
 
 # Download checkpoints
@@ -58,13 +58,7 @@ wget https://your-download-link.com/checkpoints.zip
 unzip checkpoints.zip
 ```
 
-### Option 3: Google Drive / Dropbox
-
-If the files are hosted on Google Drive or Dropbox:
-
-1. Download the shared folders
-2. Extract them to the project root directory
-3. Ensure the folder structure matches:
+Ensure the folder structure matches:
    ```
    crystal-kinetics-droplet-system/
    ├── data/
