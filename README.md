@@ -260,12 +260,12 @@ crystal-kinetics-droplet-system/
 - For crystal detection inference, ensure the training data path is correct for dataset registration
 - All paths in the commands are relative to the project root
 - GPU is recommended for faster processing, but CPU is also supported
-
+<!-- 
 ## License
 
 [Add your license here]
 
 ## Citation
 
-[Add citation information if applicable]
+[Add citation information if applicable] -->
 
