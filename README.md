@@ -2,6 +2,10 @@
 
 A comprehensive system for crystal detection, dimension prediction, and droplet volume estimation from microscopy images.
 
+## Reference
+
+Related paper: [Crystal Growth & Design](https://pubs.acs.org/doi/10.1021/acs.cgd.5c01429)
+
 ## Overview
 
 This project provides a complete pipeline for analyzing crystal kinetics in droplet systems:
